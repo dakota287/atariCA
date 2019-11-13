@@ -16,9 +16,11 @@ lucky_numbers = [3, 7, 11, 23, 42, 56]
 #print(friends.index("Will")) # index now tells me that Will is at index number 2
 #print(friends.count("Alicia")) #count tells me how many times Alicia shows up in my list
 
-friends.sort() #sort will put this list in alphabetic order
-lucky_numbers.sort()
+#friends.sort() #sort will put this list in alphabetic order
+#lucky_numbers.sort() #sort will put list in numerical order
+#lucky_numbers.reverse() #reverse will reverse the order of the list
+#friends2 = friends.copy() #copy will copy the list
 
-
-print(friends)
-print(lucky_numbers)
+#print(friends)
+#print(friends2)
+#print(lucky_numbers)
