@@ -22,9 +22,9 @@ is_tall = False
 
 if is_female and is_tall: 
     print("You are a female or tall or both!")
-else if is_female and not(is_tall):
+elif is_female and not(is_tall):
     print("You are a short female")
-else if not(is_female) and is_tall:
+elif not(is_female) and is_tall:
     print(" You are a tall male1")
 else:
     print("You are neither a female nor tall!")
